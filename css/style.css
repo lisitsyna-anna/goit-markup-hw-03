@@ -213,7 +213,6 @@ img {
 .features .item {
   margin-right: 30px;
   flex-basis: calc((100% - 90px) / 4);
-  /* calc((100% - кол-во_элементов_в_строке * значение_одного_отступа) / кол-во_элементов_в_строке) */
 }
 
 .features .item:nth-child(4n) {
@@ -449,8 +448,4 @@ img {
   padding: 20px 24px;
 
   border: 1px solid #eeeeee;
-}
-
-.work-img {
-  display: block;
 }
